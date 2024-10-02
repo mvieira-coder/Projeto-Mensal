@@ -68,9 +68,8 @@ body {
 .menu a:hover {
   background-color: #f8f3f3;
 }
-.menu-link img:hover{
+.menu-link img:hover {
   background-color: #f8f3f3;
-
 }
 
 .container {
@@ -86,16 +85,20 @@ body {
   margin-bottom: 64px;
 }
 
+a,
+p {
+  text-decoration: none;
+  color: #101010;
+}
+
 .lancamentos {
   display: flex;
   gap: 16px;
-  overflow-x: auto;
 }
 
 .lancamentos img {
   max-width: 100%;
 }
-
 
 .jogos {
   display: flex;
@@ -117,6 +120,7 @@ body {
   margin: 0 auto;
   align-items: center;
   gap: 16px;
+  bottom: 0%;
 }
 .rodape-container img {
   width: 24px;
